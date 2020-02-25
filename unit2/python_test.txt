@@ -1,0 +1,5 @@
+contents = open("e:readme11.md","r").read()
+mylen = len(contents)
+line_num = contents.count("\n")
+words_num = len(contents.split())
+print("字符数：%s,\n行数:%s,\n单词数量%s"%(mylen,line_num,words_num))
